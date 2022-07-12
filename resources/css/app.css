@@ -1,0 +1,311 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(100deg, #96deda 0%, #50c9c3 100%);
+}
+
+/* PAGE D'ACCUEIL */
+
+.bouton_accueil {
+    height: 50px;
+    width: 25%;
+    background-image: linear-gradient(100deg, #bf8ade 0%, #b2a8fc 100%);
+    border-radius: 10px;
+    margin: 50px;
+    color: aliceblue;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+}
+
+.text_success {
+    color: #502466;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 2rem;
+}
+
+.text_delete {
+    color: #502466;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 2rem;
+}
+
+.lien_home {
+    border: #196c68 2px dashed;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+    color: #502466;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 2rem;
+    text-decoration: overline double #502466 2px;
+}
+
+/* BARRE DE NAV */
+
+header {
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(10deg, #ffffff 0%, #b2a8fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #316663 solid 2px;
+}
+
+a {
+    height: 25%;
+    width: 100%;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+.nav_link {
+    height: 25%;
+    width: 100%;
+    text-decoration: none;
+    color: #196c68;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+/* FIN BARRE DE NAV */
+
+h1 {
+    color: #502466;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+    text-decoration: overline;
+}
+
+/* AFFICHAGE BOX : PARTICULIERS / ENTREPRISES / FACTURES */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORMULAIRE DE CRÉATION */
+
+.form_create {
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(100deg, #e5f4f2 0%, #d5dede 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: #f9f9f9;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.input_class:focus {
+    border: #196c68 solid 2px;
+    outline: none;
+}
+
+form .input_class {
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    background-image: linear-gradient(100deg, #e5f4f2 0%, #7bccc7 100%);
+    border: 2px solid aliceblue;
+    margin: 10px;
+    color: #196c68;
+    font-family: monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input_sub {
+    height: 50px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px aliceblue solid;
+    background-image: linear-gradient(100deg, #316663 0%, #b2a8fc 100%);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* DIV PARTICULIERS */
+
+.div_particuliers {
+    background-image: linear-gradient(10deg, #ffffff 0%, #b2a8fc 100%);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.div_particuliers p {
+    color: #502466;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+}
+
+.div_particuliers a {
+    color: #bf8ade;
+    text-decoration: underline;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+/* DIV ENTREPRISES */
+
+.div_entreprises {
+    background-image: linear-gradient(10deg, #ffffff 0%, #b2a8fc 100%);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.div_entreprises p {
+    color: #502466;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+}
+
+.div_entreprises a {
+    color: #bf8ade;
+    text-decoration: underline;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+/* DIV FACTURES */
+
+.div_factures {
+    background-image: linear-gradient(10deg, #ffffff 0%, #b2a8fc 100%);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.div_factures p {
+    color: #502466;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+}
+
+.div_factures a {
+    color: #bf8ade;
+    text-decoration: underline;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+/* BOUTON GENERAL SUPPRIMER */
+
+.input_delete {
+    height: 50px;
+    width: 50%;
+    background-image: linear-gradient(100deg, #bf8ade 0%, #b2a8fc 100%);
+    border-radius: 10px;
+    margin: 20px;
+    color: aliceblue;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+}
+
+/* ******************** */
+
+/* FORMULAIRE EDIT PARTICULIERS, ENTREPRISES ET FACTURES */
+
+.form_edit {
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(100deg, #e5f4f2 0%, #d5dede 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: #f9f9f9;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.input_class:focus {
+    border: #196c68 solid 2px;
+    outline: none;
+}
+
+form .input_edit {
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    background-image: linear-gradient(100deg, #316663 0%, #b2a8fc 100%);
+    border: 2px solid aliceblue;
+    margin: 10px;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input_validate {
+    height: 50px;
+    width: 200px;
+    color: #196c68;
+    border: 2px aliceblue solid;
+    background-image: linear-gradient(100deg, #e5f4f2 0%, #7bccc7 100%);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.error {
+    color: black;
+    font-family: monospace;
+}
